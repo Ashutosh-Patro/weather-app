@@ -1,6 +1,6 @@
 async function getInfo() {
     response = await fetch(
-        "http://api.weatherapi.com/v1/current.json?key=0c80b2b56f1943ada19100744230103&q=Kolkata&aqi=no"
+        "http://api.weatherapi.com/v1/current.json?key=0c80b2b56f1943ada19100744230103&q=San+Francisco&aqi=no"
     )
         .then((data) => {
             return data.json();
