@@ -12,13 +12,26 @@
 
 <body>
     <div class="header">
-
+        <div class="left-icon">
+            <img src="./images/upload-icon.svg" alt=""><sup class="tooltip-left">exit navigation</sup>
+        </div>
+        <div class="input-hover">
+            <input type="text" class="location" placeholder="Enter Location">
+            <!-- <span class="tooltip-location">enter location</span> -->
+        </div>
+        <div class="right-icon">
+            <img src="./images/notification.svg" alt=""><sup class="tooltip-right">options</sup>
+        </div>
     </div>
     <div class="temp-content">
-        <img class="weather-image" src="./weather.png" alt="">
-        <div>
-            <p class="temperature"> </p>
-            <p class="feels-like">Feels like </p>
+        <div class="image-align">
+            <img class="day-night-image" src="./images/weather.png" alt="">
+            <img class="weather-image" src="" alt="">
+        </div>
+        <div class="temp-stats">
+            <div class="temperature"> </div>
+            <div class="feels-like"> </div>
+            <div class="weather-text"></div>
         </div>
     </div>
     <p class="bottom-content">Make the most of this weather <br> that I generated for you. Or else.</p>
