@@ -10,8 +10,9 @@ body {
 .header {
   display: flex;
   justify-content: space-between;
-  align-items: top;
+  align-items: center;
   text-align: center;
+  /* max-width: 70%; */
 }
 
 .input-hover {
