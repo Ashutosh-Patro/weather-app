@@ -2,39 +2,63 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Web App</title>
-    <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" />
 </head>
 
 <body>
     <div class="header">
         <div class="left-icon">
-            <img src="./images/upload-icon.svg" alt=""><sup class="tooltip-left">exit navigation</sup>
+            <img src="./images/upload-icon.svg" alt="upload icon" /><span class="tooltip-left">exit navigation</span>
         </div>
         <div class="input-hover">
-            <input type="text" class="location" placeholder="Enter Location">
-            <!-- <span class="tooltip-location">enter location</span> -->
+            <input type="text" class="location" placeholder="Enter Location" />
+            <ul class="location-list hide">
+                <li class="location-hover">Kolkata</li>
+                <li class="location-hover">London</li>
+                <li class="location-hover">Ottawa</li>
+                <li class="location-hover">Mexico City</li>
+                <li class="location-hover">Brasilia</li>
+                <li class="location-hover">Paris</li>
+                <li class="location-hover">Chicago</li>
+                <li class="location-hover">Bali</li>
+                <li class="location-hover">Singapore</li>
+                <li class="location-hover">Oslo</li>
+                <li class="location-hover">Moscow</li>
+                <li class="location-hover">Kazan</li>
+                <li class="location-hover">Adana</li>
+                <li class="location-hover">Budapest</li>
+                <li class="location-hover">Barcelona</li>
+                <li class="location-hover">Manchester</li>
+                <li class="location-hover">Dubai</li>
+                <li class="location-hover">Surat</li>
+                <li class="location-hover">Panaji</li>
+                <li class="location-hover">Doha</li>
+            </ul>
         </div>
         <div class="right-icon">
-            <img src="./images/notification.svg" alt=""><sup class="tooltip-right">options</sup>
+            <img src="./images/notification.svg" alt="options icon" /><span class="tooltip-right">options</span>
         </div>
     </div>
     <div class="temp-content">
         <div class="image-align">
-            <img class="day-night-image" src="./images/weather.png" alt="">
-            <img class="weather-image" src="" alt="">
+            <img class="day-night-image" src="./images/weather.png" alt="sun-moon" />
+            <img class="weather-image" />
         </div>
         <div class="temp-stats">
-            <div class="temperature"> </div>
-            <div class="feels-like"> </div>
+            <div class="temperature"></div>
+            <div class="feels-like"></div>
             <div class="weather-text"></div>
         </div>
     </div>
-    <p class="bottom-content">Make the most of this weather <br> that I generated for you. Or else.</p>
+    <p class="bottom-content">
+        Make the most of this weather <br />
+        that I generated for you. Or else.
+    </p>
 
     <script src="./js/script.js"></script>
 </body>
