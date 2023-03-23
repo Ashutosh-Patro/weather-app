@@ -2,7 +2,7 @@
 
 body {
   background-color: #3937fa;
-  /* font-family: "Poppins", sans-serif; */
+  font-family: "Poppins", sans-serif;
   font-family: "Work Sans", sans-serif;
 }
 
@@ -44,12 +44,6 @@ body {
   z-index: 200000;
 
 }
-
-/* .location-list li {
-  width: 100%;
-  margin: 20px 0;
-  cursor: pointer;
-} */
 
 .hide {
   display: none;
@@ -104,10 +98,8 @@ body {
 }
 
 .temperature {
-  /* text-align: center; */
   font-size: 5rem;
   width: 100%;
-  /* margin-bottom: 1rem; */
 }
 
 .bottom-content {
@@ -128,8 +120,6 @@ body {
   width: 40%;
   display: flex;
   flex-direction: column;
-  /* justify-content: center;
-  align-items: center; */
 }
 
 .image-align {

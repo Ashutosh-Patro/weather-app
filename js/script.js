@@ -3,7 +3,6 @@ const image = document.querySelector(".day-night-image");
 const weatherImage = document.querySelector(".weather-image");
 const textWeather = document.querySelector(".weather-text");
 const inputDrop = document.querySelector(".location-list");
-// const citySelect = document.querySelectorAll(".location-list");
 
 let allCities = []
 
